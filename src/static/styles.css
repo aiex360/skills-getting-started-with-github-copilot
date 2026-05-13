@@ -70,6 +70,61 @@ section h3 {
   color: #0066cc;
 }
 
+.participants-section {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+.participants-section p {
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #333;
+}
+
+
+.participants-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  background: #f1f5fb;
+  border-radius: 4px;
+  padding: 4px 10px 4px 8px;
+  margin-bottom: 0;
+  color: #555;
+  font-size: 15px;
+  transition: background 0.2s;
+}
+.participant-item:hover {
+  background: #e3eaf6;
+}
+.delete-participant {
+  margin-left: 10px;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 17px;
+  transition: color 0.2s;
+  user-select: none;
+}
+.delete-participant:hover {
+  color: #ff1744;
+}
+
+.no-participants {
+  margin: 0;
+  color: #777;
+  font-style: italic;
+}
+
 .activity-card p {
   margin-bottom: 8px;
 }
